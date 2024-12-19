@@ -1,0 +1,8 @@
+Config = {
+    namescript = "taimod hub",--Tên Script
+    logoscript = "117390141608083",--ID Logo Script
+    tacgia = "tài mod game"-- Tên Tác Giả
+}
+repeat wait() until game:IsLoaded() and game.Players.LocalPlayer 
+getgenv().Key = "Key" 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/main/BananaHub.lua"))()
